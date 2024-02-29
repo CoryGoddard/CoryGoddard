@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pythagorean Theorem</title>
+    <link rel="stylesheet" href="styles/greenDark.css" />
+  </head>
+
+  <!-- div for main lab body -->
+  <div class="mainLab">
+    <body class="mainLab">
+      <!-- Title Bar -->
+      <div class="topBar">
+        <h1 class="text">The Pythagorean Theorem</h1>
+      </div>
+
+      <!-- Formula Bar -->
+      <div class="topBar">
+        <h2 class="text">Formula: a&sup2; + b&sup2; = c&sup2;</h2>
+      </div>
+
+      <!-- Formula Description Bar -->
+      <div class="topBar">
+        <p class="text">
+          Description: This formula is used to calculate the length of a
+          hypotenuse, or the side of a right triangle opposite of the right
+          angle. It states that the sum of the squares of side A and side B, the
+          sides creating the right angle, are equal to the square of side C, or
+          the hypotenuse.
+        </p>
+      </div>
+
+      <!-- Calculator -->
+      <form class="calculator" id="inputs">
+        <h2 class="text">Calculator</h2>
+        <!-- Side A field -->
+        <label for="sideA" class="text">Side A: </label> <br />
+        <input type="number" id="sideA" placeholder="Enter Side A" />
+        <br />
+
+        <!-- Side B field -->
+        <label for="sideB" class="text">Side B: </label> <br />
+        <input type="number" id="sideB" placeholder="Enter Side B" />
+        <br />
+
+        <!-- Result button -->
+        <button id="result" type="button">Result</button>
+
+        <!-- P tag to display the length of side C-->
+        <p id="solution" class="text"></p>
+      </form>
+    </body>
+    <!-- Script to handle button press, and calculation/display of side C-->
+    <script src="src/calculator.js"></script>
+  </div>
+
+  <!-- About bar to display my information -->
+  <div class="aboutBar">
+    <p class="aboutText">Class Info</p>
+    <p class="aboutText">Cory Goddard | Lab 2 | COP2840-14671</p>
+  </div>
+</html>

@@ -1,0 +1,96 @@
+.footer {
+    background-color: rgb(40,57,55);
+    color: #0d6647;
+    font-family: Courier, monospace;
+}
+
+.mainBody {
+    background-color: rgb(48,69,67);
+    background-image: url("/images/submarine.png");
+}
+
+.display {
+    background-image: url("/images/displayBkg.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-color: #00B4D8;
+    border: 5px solid rgb(40,57,55);;
+}
+
+.keyboard {
+    background-color: rgb(40,57,55);
+}
+
+.keyboard input {
+    background-color: #276d58;
+    color: #5ed2a2;
+    font-family: Courier, monospace;
+    font-size: 25px;
+}
+
+.keyboard input:hover {
+    background-color: #205d4b;
+}
+
+.keyboard input:disabled {
+    background-color: #1d5444;
+    color: #4bb2909c;
+}
+
+.word {
+    color: #0077B6;
+    background-color: #90E0EF;
+    font-family: Courier, monospace;
+    font-size: 50px;
+}
+
+.guesses {
+    color: #0077B6;
+    background-color: #90E0EF;
+    font-family: Courier, monospace;
+    font-size: 25px;
+}
+
+.messages {
+    color: #0077B6;
+    background-color: #90E0EF;
+    font-family: Courier, monospace;
+    font-size: 25px;
+}
+
+.resetButton {
+    color: rgb(0,0,0);
+    background-color: rgb(221, 43, 43);
+    font-family: Courier, monospace;
+    padding: 4px;
+}
+
+.resetButton:hover {
+    background-color: rgb(201,59,59);
+}
+
+.resetButton:focus {
+    background-color: rgb(166, 5, 5);
+}
+
+/* 
+Main color Pallete
+
+03045E
+
+023E8A
+
+0077B6
+
+0096C7
+
+00B4D8
+
+48CAE4
+
+90E0EF
+
+ADE8F4
+
+CAF0F8
+*/
